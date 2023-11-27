@@ -1,4 +1,4 @@
-package Task1;
+package HomeWork;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -21,5 +21,8 @@ public class Main {
         dog.toSwim();
 // В main добиться того, чтобы при вызове метода действия, которое конкретное
 // животное не умеет, оно этого не делало (кошки не летают, рыбы не ходят)
+        Turtle turtle = new Turtle();
+        turtle.toSwim();
+        turtle.toFly();
     }
 }

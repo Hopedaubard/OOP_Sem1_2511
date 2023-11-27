@@ -1,4 +1,4 @@
-package Task1;
+package HomeWork;
 
 import java.time.LocalDate;
 
@@ -48,7 +48,7 @@ public class Animal {
         sleep();
     }
     public void breathe(){
-        System.out.println("breathe");
+        System.out.println(getClass().getSimpleName() + " already breathe, don't worry");
     }
     //Добавить в класс Animal методы двигаться(toGo), летать(fly), плавать(swim).
     public void toGo(){
