@@ -24,5 +24,10 @@ public class Main {
         Turtle turtle = new Turtle();
         turtle.toSwim();
         turtle.toFly();
+//Семинар 2
+        VeterinaryClinic clinic = new VeterinaryClinic();
+        clinic.addPatient(cat).addPatient(dog).addPatient(turtle);
+        System.out.println(clinic.getPatients());
+        System.out.println(clinic.getGoable());
     }
 }

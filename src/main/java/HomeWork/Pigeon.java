@@ -12,6 +12,11 @@ public class Pigeon extends Animal {
     }
 
     @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
     public void toSwim() {
     }
 }
